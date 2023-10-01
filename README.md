@@ -1,13 +1,15 @@
 # Weed-Detection-using-DL
 
 
-# Note 
+## Table of Content
 
+## Introduction  
+
+## Environment Requirements:
 
 # Dataset
-### New Dataset
-
-# Preprocessing
+## New Dataset
+### Prepare and Label image data:
 
 
 # Model Architecture
@@ -15,11 +17,5 @@
 # Model Training
 
 # Evaluation
-
-
-# Usage
-
-# Dependencies
-
 
 # Conclusion
