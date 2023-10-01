@@ -1,4 +1,4 @@
-# Weed-Detection-using-DL
+# Deep-Learning-Techniques-for-Weeds-Detection
 
 
 ## Table of Content
