@@ -15,8 +15,8 @@ Weeds pose a significant threat to agricultural productivity, causing yield loss
 ### Research objectives: 
 The present study investigates the following objectives:
 
-Objective 1: Evaluate the performance of the models and compare the results. 
-Objective 2: Build a dataset from agricultural fields for additional analysis.
+* Evaluate the performance of the models and compare the results. 
+* Build a dataset from agricultural fields for additional analysis.
 
 ## Environment Requirements:
 
