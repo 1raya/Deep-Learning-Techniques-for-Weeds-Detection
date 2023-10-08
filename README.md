@@ -102,6 +102,9 @@ The commands below reproduce YOLO versions training:
 # Evaluation
 
 In the training step, all models achieved an mAP greater than 90 and YOLOv7 outperformed all versions. Below figure show the training curve of mAP@0.5 for YOLOv5, YOLOv6, YOLOv7, and YOLOv8
+<img width="1124" alt="Screenshot 2023-10-08 at 4 01 45 PM" src="https://github.com/1raya/Deep-Learning-Techniques-for-Weeds-Detection/assets/78345034/5dda5def-5f42-4bee-b1f7-623b4a810ede">
+
+
 
 We evaluate the performance of each model on the validation set by using below commands: 
 ```bash
