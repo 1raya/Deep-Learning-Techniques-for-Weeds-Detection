@@ -76,8 +76,7 @@ YOLOv8s  |  https://github.com/ultralytics/ultralytics
 
 The commands below reproduce YOLO versions training:
 ```bash 
-# train yolov5s on custom data for 100 epochs
-# time its performance
+# YOLOv5
 %%time
 %cd /content/yolov5/
 !python train.py --img 640 --batch 16 --epochs 100 --data {dataset.location}/data.yaml  --weights yolov5s.pt --name yolov5s_results  --cache
