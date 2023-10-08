@@ -66,12 +66,6 @@ YOLO model considered as a One-stage object detectors, In this project we traine
 # Model Training
 The training procedure for all YOLO models that we train follows a standardized approach with the following hyperparameters: 100 epochs, batch size of 16, and an image size of 640 pixels.
 
-• Epochs: The training process is divided into 100 epochs, which means the entire dataset is processed 100 times. Each epoch represents a complete iteration over the dataset during the training phase.
-
-• Batch Size: The training dataset is divided into batches, with each batch containing 16 images. During each epoch, the model is updated based on the gradients computed from these batches. Using a batch size of 16 allows for eﬀicient parallel processing and optimization.
-
-• Image Size: The input images are resized to have a fixed size of 640 pixels. This ensures consistency in the input dimensions across all the YOLO models that we train. Resizing the images helps in achieving better performance and accuracy during object detection.
-
 Additional hyperparameters such as the learning rate, weight decay, optimizer choice, and augmentation techniques are set to their default values. It should be noted that the chosen YOLO detectors have open-source software packages that were created by their developers. These software packages, as summarized in below Table, were utilized in this project to train weeds dataset. 
   | YOLO Version | URL
 ------------- | -------------
@@ -80,7 +74,31 @@ YOLOv6  | https://github.com/meituan/YOLOv6
 YOLOv7  |   https://github.com/WongKinYiu/yolov7
 YOLOv8s  |  https://github.com/ultralytics/ultralytics
 
- 
+The commands below reproduce YOLO versions training:
+```bash 
+# train yolov5s on custom data for 100 epochs
+# time its performance
+%%time
+%cd /content/yolov5/
+!python train.py --img 640 --batch 16 --epochs 100 --data {dataset.location}/data.yaml  --weights yolov5s.pt --name yolov5s_results  --cache
+```
+
+```bash
+# YOLOv6
+!python tools/train.py --batch 16 --conf configs/yolov6s.py --epochs 100 --img-size 640 --data {dataset.location}/data.yaml --device 0 
+```
+
+```bash
+# YOLOv7
+%cd /content/yolov7
+!python train.py --batch 16 --epochs 100 --data {dataset.location}/data.yaml --weights 'yolov7_training.pt' --device 0 
+```
+```bash
+#YOLOv8
+%cd {HOME}
+
+!yolo task=detect mode=train model=yolov8s.pt data={dataset.location}/data.yaml epochs=100 imgsz=640 plots=True
+```
 
 # Evaluation
 
