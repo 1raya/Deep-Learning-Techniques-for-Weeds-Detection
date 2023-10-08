@@ -101,4 +101,35 @@ The commands below reproduce YOLO versions training:
 
 # Evaluation
 
+In the training step, all models achieved an mAP greater than 90 and YOLOv7 outperformed all versions. Below figure show the training curve of mAP@0.5 for YOLOv5, YOLOv6, YOLOv7, and YOLOv8
+
+We evaluate the performance of each model on the validation set by using below commands: 
+```bash
+# YOLOv5
+%%time
+%cd /content/yolov5/
+!python val.py --batch 16 --data {dataset.location}/data.yaml  --weights /content/yolov5/runs/train/yolov5s_results/weights/best.pt  
+```
+
+```bash
+# YOLOv6
+!python tools/eval.py --data {dataset.location}/data.yaml --img-size 640 --weights runs/train/exp/weights/best_ckpt.pt --device 0 
+
+```
+
+
+```bash
+#YOLOv7
+!python test.py --batch 16 --weights /content/yolov7/runs/train/exp/weights/best.pt --data /content/yolov7/corn-2/data.yaml  --task val --name yolo_val
+
+```
+
+
+```bash
+#YOLOv8
+%cd {HOME}
+!yolo task=detect mode=val model=/content/runs/detect/train/weights/best.pt data={dataset.location}/data.yaml epochs=100 imgsz=640 plots=True
+```
+The validation results shown in below table
+
 # Conclusion
