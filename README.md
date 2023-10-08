@@ -111,7 +111,6 @@ In the training step, all models achieved an mAP greater than 90 and YOLOv7 outp
 <img width="1124" alt="Screenshot 2023-10-08 at 4 01 45 PM" src="https://github.com/1raya/Deep-Learning-Techniques-for-Weeds-Detection/assets/78345034/5dda5def-5f42-4bee-b1f7-623b4a810ede">
 
 
-
 We evaluate the performance of each model on the validation set by using below commands: 
 ```bash
 # YOLOv5
@@ -125,7 +124,6 @@ We evaluate the performance of each model on the validation set by using below c
 !python tools/eval.py --data {dataset.location}/data.yaml --img-size 640 --weights runs/train/exp/weights/best_ckpt.pt --device 0 
 
 ```
-
 
 ```bash
 #YOLOv7
@@ -145,5 +143,8 @@ We evaluate the performance of each model on the validation set by using below c
 
 
 ### Validation results on Our Dataset
+
+
+
 
 # Conclusion
