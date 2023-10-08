@@ -64,6 +64,23 @@ YOLO model considered as a One-stage object detectors, In this project we traine
 ![alt text](https://miro.medium.com/v2/resize:fit:1400/1*ZbmrsQJW-Lp72C5KoTnzUg.jpeg)
 
 # Model Training
+The training procedure for all YOLO models that we train follows a standardized approach with the following hyperparameters: 100 epochs, batch size of 16, and an image size of 640 pixels.
+
+• Epochs: The training process is divided into 100 epochs, which means the entire dataset is processed 100 times. Each epoch represents a complete iteration over the dataset during the training phase.
+
+• Batch Size: The training dataset is divided into batches, with each batch containing 16 images. During each epoch, the model is updated based on the gradients computed from these batches. Using a batch size of 16 allows for eﬀicient parallel processing and optimization.
+
+• Image Size: The input images are resized to have a fixed size of 640 pixels. This ensures consistency in the input dimensions across all the YOLO models that we train. Resizing the images helps in achieving better performance and accuracy during object detection.
+
+Additional hyperparameters such as the learning rate, weight decay, optimizer choice, and augmentation techniques are set to their default values. It should be noted that the chosen YOLO detectors have open-source software packages that were created by their developers. These software packages, as summarized in below Table, were utilized in this project to train weeds dataset. 
+  | YOLO Version | URL
+------------- | -------------
+YOLOv5s  | https://github.com/ultralytics/yolov5
+YOLOv6  | https://github.com/meituan/YOLOv6 
+YOLOv7  |   https://github.com/WongKinYiu/yolov7
+YOLOv8s  |  https://github.com/ultralytics/ultralytics
+
+ 
 
 # Evaluation
 
