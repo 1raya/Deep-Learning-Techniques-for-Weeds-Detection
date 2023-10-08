@@ -12,6 +12,12 @@
 ## Introduction  
 Weeds pose a significant threat to agricultural productivity, causing yield losses and increasing the need for herbicides. Traditional weed detection methods are time-consuming and labor-intensive, making them inefficient for large-scale farming operations. In recent years, deep learning techniques have shown promising results in various computer vision tasks, including object detection. This project aim to use deep learning models to detect weeds, compare their performance, and provide additional analysis using a newly created dataset
 
+### Research objectives: 
+The present study investigates the following objectives:
+
+Objective 1: Evaluate the performance of the models and compare the results. 
+Objective 2: Build a dataset from agricultural fields for additional analysis.
+
 ## Environment Requirements:
 
 * gitpython>=3.1.30
@@ -127,12 +133,17 @@ We evaluate the performance of each model on the validation set by using below c
 
 ```
 
-
 ```bash
 #YOLOv8
 %cd {HOME}
 !yolo task=detect mode=val model=/content/runs/detect/train/weights/best.pt data={dataset.location}/data.yaml epochs=100 imgsz=640 plots=True
 ```
-The validation results shown in below table
+
+### Validation results on Open-source Dataset
+
+
+
+
+### Validation results on Our Dataset
 
 # Conclusion
