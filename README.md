@@ -52,7 +52,7 @@ In this project, we used an open-access [Weeds and Corn dataset from Roboflow](h
 ```
 
 ## New Dataset
-We expanded our analysis by evaluating the performance of YOLOv7 on a newly collected dataset, specifically captured from Okra and Eggplant fields. The dataset consists of 3 classes (Okra, Eggplant, Weeds) and 950 images captured by an iPhone 11 Pro and iPhone 12 Ultra Wide camera from May 16th to 18th, 2023. The data was collected between 11 AM and 7 PM, including various weather and light conditions. You can find sample images in this folder [images](src/images/) 
+We expanded our analysis by evaluating the performance of YOLOv7 on a newly collected dataset, specifically captured from Okra and Eggplant fields. The dataset consists of 3 classes (Okra, Eggplant, Weeds) and 950 images captured by an iPhone 11 Pro and iPhone 12 Ultra Wide camera from May 16th to 18th, 2023. The data was collected between 11 AM and 7 PM, including various weather and light conditions. You can find sample images in this folder [images](images/) 
 
 
 ![Eggplant Field](images/train/images/0ce90a6f-6fdc-4da4-9804-1ddc63a559e5_JPG.rf.df1e8c7f22fc077f9b472308eae6f8d0.jpg)
