@@ -148,3 +148,9 @@ We evaluate the performance of each model on the validation set by using below c
 
 
 # Conclusion
+
+* Our study evaluated and compared various version of YOLO model.
+
+* The findings indicated that YOLOv7 outperformed other models, showcasing its better performance based on mAP.
+
+* Collect new dataset from okra and eggplant fields. Retrain best model with on our dataset.
