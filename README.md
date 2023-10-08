@@ -32,6 +32,14 @@ In this project, we used an open-access [Weeds and Corn dataset from Roboflow](h
 ## New Dataset
 We expanded our analysis by evaluating the performance of YOLOv7 on a newly collected dataset, specifically captured from Okra and Eggplant fields. The dataset consists of 3 classes (Okra, Eggplant, Weeds) and 950 images captured by an iPhone 11 Pro and iPhone 12 Ultra Wide camera from May 16th to 18th, 2023. The data was collected between 11 AM and 7 PM, including various weather and light conditions. 
 
+![alt text](images/train/images/0ce90a6f-6fdc-4da4-9804-1ddc63a559e5_JPG.rf.df1e8c7f22fc077f9b472308eae6f8d0.jpg)
+
+
+
+![alt text](images/test/images/4cc3a198-3ac1-45db-a7f5-6492e7676433_png.rf.c8cf2dea8b064b263b817cccb1c1bf1d.jpg)
+
+
+
 ### Prepare and Label image data:
 We used the advanced Smart Polygon feature in Roboflow Annotate, which is powered by the Segment Anything Model (SAM). This cloud-based solution allowed us to apply polygon annotations with improved speed, ease, and precision directly within the Roboflow UI. To prepare each image for analysis, pre-processing steps were performed, including autoorientation of pixel data by stripping EXIF-orientation and resizing to 640x640 dimensions using stretch transformation. A set of augmentation techniques was applied to generate two versions of each source image. These techniques included a 50% probability of horizontal flip, a 50% probability of vertical flip, random rotation within the range of -15 to +15 degrees, and random shear horizontally and vertically within the range of -15°to +15°. As a result of these augmentations, the total number of images in the dataset increased to 1596.
 
