@@ -22,10 +22,12 @@ Weeds pose a significant threat to agricultural productivity, causing yield loss
 * matplotlib
 * pandas
 * seaborn
-* jupyter notebook
+* Google Colab Pro
+* Roboflow
 
 
 # Dataset
+
 ## New Dataset
 ### Prepare and Label image data:
 
