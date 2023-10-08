@@ -32,11 +32,11 @@ In this project, we used an open-access [Weeds and Corn dataset from Roboflow](h
 ## New Dataset
 We expanded our analysis by evaluating the performance of YOLOv7 on a newly collected dataset, specifically captured from Okra and Eggplant fields. The dataset consists of 3 classes (Okra, Eggplant, Weeds) and 950 images captured by an iPhone 11 Pro and iPhone 12 Ultra Wide camera from May 16th to 18th, 2023. The data was collected between 11 AM and 7 PM, including various weather and light conditions. 
 
-![alt text](images/train/images/0ce90a6f-6fdc-4da4-9804-1ddc63a559e5_JPG.rf.df1e8c7f22fc077f9b472308eae6f8d0.jpg)
+![Eggplant Field](images/train/images/0ce90a6f-6fdc-4da4-9804-1ddc63a559e5_JPG.rf.df1e8c7f22fc077f9b472308eae6f8d0.jpg)
 
 
 
-![alt text](images/test/images/4cc3a198-3ac1-45db-a7f5-6492e7676433_png.rf.c8cf2dea8b064b263b817cccb1c1bf1d.jpg)
+![Okra Field](images/test/images/4cc3a198-3ac1-45db-a7f5-6492e7676433_png.rf.c8cf2dea8b064b263b817cccb1c1bf1d.jpg)
 
 
 
@@ -45,7 +45,7 @@ We used the advanced Smart Polygon feature in Roboflow Annotate, which is powere
 
 # Model Architecture
 YOLO model considered as a One-stage object detectors, In this project we trained different versions of the real-time object detection YOLO models (YOLOv5, YOLOv6, YOLOv7, and YOLOv8). These YOLO models apply a single neural network to the full image as shown in below Figure. 
-
+![alt text](https://miro.medium.com/v2/resize:fit:1400/1*ZbmrsQJW-Lp72C5KoTnzUg.jpeg)
 
 # Model Training
 
