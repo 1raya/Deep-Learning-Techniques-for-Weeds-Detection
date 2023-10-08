@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['eggplant', 'okra', 'weeds']
+
+roboflow:
+  workspace: weeddetection-qkejh
+  project: ourdataset-x8mkj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/weeddetection-qkejh/ourdataset-x8mkj/dataset/2
