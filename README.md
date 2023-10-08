@@ -139,11 +139,21 @@ We evaluate the performance of each model on the validation set by using below c
 
 ### Validation results on Open-source Dataset
 
-
+| Index | YOLO versions | Precision | Recall | mAP@0.5 | mAP@[0.5:0.9] |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | YOLOv5s | 0.954 | 0.969 | 0.986 | 0.711 |
+| 2 | YOLOv6 | 0.592 | 0.677 | 0.963 | 0.565 |
+| 3 | YOLOv7 | **0.97** | 0.968 | **0.992** | **0.75** |
+| 4 | YOLOv8s | 0.941 | **0.974** | 0.988 | 0.745 |
 
 
 ### Validation results on Our Dataset
 
+| Class | Precision | Recall | mAP@0.5 | mAP@[0.5:0.9] |
+| :--- | :--- | :--- | :--- | :--- | 
+| all | 0.97 | 0.982 | 0.994 | 0.785 |
+| weeds | 0.964 | 0.964 | 0.994 | 0.764 |
+| corn | 0.977 | 0.981 | 0.994 | 0.807 |
 
 
 
