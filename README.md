@@ -7,6 +7,7 @@
 * [Dataset](#Dataset)
 * [Model Architecture](#Model-Architecture)
 * [Model Training](#Model-Training)
+* [Evaluation](#Evaluation)
 * [Conclusion](#Conclusion)
 
 # Introduction  
