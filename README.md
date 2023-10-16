@@ -166,3 +166,8 @@ We evaluate the performance of each model on the validation set by using below c
 * The findings indicated that YOLOv7 outperformed other models, showcasing its better performance based on mAP.
 
 * Collect new dataset from okra and eggplant fields. Retrain best model with on our dataset.
+
+This repository contains all the codes written and implemented for the paper: 'Weed Detection Using Yolo Networks Based on RGB Images'
+If you find this code useful in your research and development, please reference this repository or the paper.
+This repository is under a GNU General Public License v2.0 (see included "LICENSE" file).
+  
