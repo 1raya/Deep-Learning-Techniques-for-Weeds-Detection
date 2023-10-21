@@ -172,4 +172,4 @@ We evaluate the performance of each model on the validation set by using below c
 
 ## Citation and License
 
-This repository contains samples of the code and dataset related to the paper: 'Weed Detection Using Yolo Networks Based on RGB Images’. If you find this content useful for your research or development, please cite this repository or the paper. This repository is licensed under the GNU General Public License v2.0 (see the included "LICENSE" file for details).
+This repository contains samples of the code and dataset related to the paper: 'Weed Detection Using YOLO Networks Based on RGB Images’. If you find this content useful for your research or development, please cite this repository or the paper. This repository is licensed under the GNU General Public License v2.0 (see the included "LICENSE" file for details).
