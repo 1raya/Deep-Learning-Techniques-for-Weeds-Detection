@@ -9,6 +9,7 @@
 * [Model Training](#Model-Training)
 * [Evaluation](#Evaluation)
 * [Conclusion](#Conclusion)
+* [Citation and Licens] (#Citation-and-License)
 
 # Introduction  
 Weeds pose a significant threat to agricultural productivity, causing yield losses and increasing the need for herbicides. Traditional weed detection methods are time-consuming and labor-intensive, making them inefficient for large-scale farming operations. In recent years, deep learning techniques have shown promising results in various computer vision tasks, including object detection. This project aim to use deep learning models to detect weeds, compare their performance, and provide additional analysis using a newly created dataset
@@ -159,7 +160,7 @@ We evaluate the performance of each model on the validation set by using below c
 
 
 
-# Conclusion
+## Conclusion
 
 * Our study evaluated and compared different versions of YOLO model.
 
@@ -167,7 +168,8 @@ We evaluate the performance of each model on the validation set by using below c
 
 * Collect new dataset from okra and eggplant fields. Retrain best model with on our dataset.
 
-This repository contains all the codes written and implemented for the paper: 'Weed Detection Using Yolo Networks Based on RGB Images'
-If you find this code useful in your research and development, please reference this repository or the paper.
-This repository is under a GNU General Public License v2.0 (see included "LICENSE" file).
-  
+
+
+## Citation and License
+
+This repository contains samples of the code and dataset related to the paper: 'Weed Detection Using Yolo Networks Based on RGB Images’. If you find this content useful for your research or development, please cite this repository or the paper. This repository is licensed under the GNU General Public License v2.0 (see the included "LICENSE" file for details).
